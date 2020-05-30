@@ -6,7 +6,7 @@ console.log(str.search(regex));
 
 // "g" pesquisa global
 regex = /B/g;
-console.log(str.replace(regex,'H'));
+console.log(str.replace(regex, 'H'));
 
 // "|" = ou
 // "[A-Z]" = entre A e Z (tem diferença maiúscula e minúscula)
@@ -14,4 +14,6 @@ console.log(str.replace(regex,'H'));
 // "n+" = qualquer string que contenha pelo menos um n
 regex = /([a-z]|[A-Z])(a+)/g;
 console.log(str.match(regex));
-
+function sum(a, a, c) { // !!! erro de sintaxe
+  return a + b + c; // errado se este código executasse
+}
