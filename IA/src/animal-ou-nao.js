@@ -38,6 +38,6 @@ for (let i = 0; i < 20000; i++) {
 
 }
 
-console.log(rede.activate([QUATRO_PATAS, MUITO_PELO]) * 100+' %');
-console.log(rede.activate([QUATRO_PATAS, SEM_PELO]) * 100+' %');
+console.log('Quatro patas e tem muito pelo: ',rede.activate([QUATRO_PATAS, MUITO_PELO]) * 100+' % de ser animal');
+console.log('Quatro patas e sem pelo: ',rede.activate([QUATRO_PATAS, SEM_PELO]) * 100+' % de NÃO ser animal');
 //console.log(rede.activate([PAPEL,TESOURA]))
